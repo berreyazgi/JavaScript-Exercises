@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Booleans </title>
+  </head>
+  <body>
+    <h3>Rock Paper Scissors</h3>
+    <button onclick="
+    const randomNumber = Math.random();
+    if (randomNumber >= 0 && randomNumber < 1/3
+    ) {
+      computer = 'rock';
+      alert(`You picked rock. Computer picked  ${computer} Tie `);
+    } else if (randomNumber >= 1/3 && randomNumber < 2/3) {
+      computer = 'paper';
+      alert(`You picked rock. Computer picked  ${computer} You lose `);
+    } else {
+      computer = 'scissors';
+      alert(`You picked rock. Computer picked  ${computer} You win `);
+    }
+   ">
+    Rock</button>
+    <button onclick="const randomNumber2 = Math.random();
+      if (randomNumber2 >= 0 && randomNumber2 < 1/3
+      ) {
+        computer = 'rock';
+        alert(`You picked paper. Computer picked ${computer} You win `);
+      } else if (randomNumber2 >= 1/3 && randomNumber2 < 2/3) {
+        computer = 'paper';
+        alert(`You picked paper. Computer picked ${computer} Tie `);
+      } else {
+        computer = 'scissors';
+        alert(`You picked paper. Computer picked ${computer} You loose `);
+      }
+    ">Paper
+  </button>
+    <button onclick =" const randomNumber3 = Math.random();
+    if (randomNumber3 >= 0 && randomNumber3 < 1/3
+    ) {
+      computer = 'rock';
+      alert(`You picked scissors. Computer picked ${computer} You loose `)
+    } else if (randomNumber3 >= 1/3 && randomNumber3 < 2/3) {
+      computer = 'paper';
+      alert(`You picked scissors. Computer picked ${computer} You win `)
+    } else {
+      computer = 'scissors';
+      alert(`You picked scissors. Computer picked ${computer} Tie `);
+    }
+    ">Scissors</button>
+    <script>
+     
+    </script>
+  </body>
+</html>
